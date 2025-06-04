@@ -1,5 +1,5 @@
 # kittydoro
-![ui_image]([Screenshot 2025-06-04 at 17.24.31.png](https://github.com/bytelea/kittydoro/blob/main/Screenshot%202025-06-04%20at%2017.24.31.png))
+![ui_image](https://github.com/bytelea/kittydoro/blob/main/Screenshot%202025-06-04%20at%2017.32.24.png)
 <br/>
 
 **Kittydoro** is an adorable desktop Pomodoro timer app designed with a soft pastel aesthetic and a cozy kitten companion to help you stay productive. Built using simple web technologies, it blends minimalism with charm to keep you focused during your work or study sessions.
