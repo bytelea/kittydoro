@@ -8,15 +8,16 @@
 </head>
 <body>
   <div class="container" id="welcome-screen">
-    <h1>KittyDoro: My Pomodoro Timer</h1>
+    <h1>KittyDoro: My Pomodoro Timer</h1> <br/>
+    <img src="kittenwelcome.gif" alt="Kitten Welcome" class="kitten" /> <br/>
     <button onclick="startApp()">Continue</button> <br/>
-    <img src="kittenwelcome.gif" alt="Kitten Welcome" class="kitten" />
   </div>
 
   <div class="container hidden" id="main-app">
     <h2>To-Do List</h2>
-    <textarea id="todo" placeholder="Write your tasks here..."></textarea>
-
+<input type="text" id="todo-input" placeholder="Add a task" />
+<button onclick="addTask()">Add</button>
+<ul id="todo-list"></ul>
     <div class="timer-section">
       <h2>Pomodoro Timer</h2>
       <div id="timer">25:00</div>
