@@ -32,7 +32,7 @@ function addTask() {
   const taskText = input.value.trim();
 
   if (taskText !== "") {
-    const listItem = document.createElement("li");
+    const listItem = document.createElement("ol");
 
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
