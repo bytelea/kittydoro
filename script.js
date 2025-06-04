@@ -14,8 +14,8 @@ function startTimer() {
     updateDisplay();
     if (timeLeft <= 0) {
       clearInterval(timer);
-      document.getElementById("kitten-img").src = "assets/kitten-celebrate.png";
-      alert("Pomodoro complete! Take a break 🎉");
+      document.getElementById("kitten-img").src = "kittenhappy.gif";
+      alert("Pomodoro timer is complete! Take a short break 🎉");
     }
   }, 1000);
 }
