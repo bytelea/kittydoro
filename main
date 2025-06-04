@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KittyDoro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="welcome-screen">
+    <img src="assets/kitten-study.png" alt="Kitten Welcome" class="kitten" />
+    <h1>KittyDoro: My Pomodoro Timer</h1>
+    <button onclick="startApp()">Continue</button>
+  </div>
+
+  <div class="container hidden" id="main-app">
+    <h2>To-Do List</h2>
+    <textarea id="todo" placeholder="Write your tasks here..."></textarea>
+
+    <div class="timer-section">
+      <h2>Pomodoro Timer</h2>
+      <div id="timer">25:00</div>
+      <button onclick="startTimer()">Start</button>
+      <img id="kitten-img" src="assets/kitten-study.png" class="kitten" alt="Kitten Working" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
