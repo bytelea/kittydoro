@@ -37,6 +37,8 @@
 3. Breaks will start automatically after each 25-minute session.
 
 4. Enjoy the soft visuals and motivating kitten!
+![ui_image2](https://github.com/bytelea/kittydoro/blob/main/Screenshot%202025-06-04%20at%2017.33.03.png)
+<br/>
 
 ## Assets
 
