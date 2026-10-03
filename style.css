@@ -26,20 +26,51 @@ button {
   margin: 1rem;
 }
 
-textarea {
-  width: 90%;
-  max-width: 400px;
-  height: 100px;
-  margin-top: 1rem;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  background-color: #fdfdfd;
-  padding: 10px;
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
 }
 
-#timer {
+#todo-input {
+  box-sizing: border-box;
+  width: min(90%, 24rem);
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font: inherit;
+}
+
+#todo-list {
+  width: min(90%, 24rem);
+  margin: 0 auto;
+  padding-left: 2rem;
+  text-align: left;
+}
+
+#todo-list li {
+  padding: 0.35rem 0;
+}
+
+#todo-list label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  overflow-wrap: anywhere;
+}
+
+.task-checkbox:checked + span {
+  color: #777;
+  text-decoration: line-through;
+}
+
+.pomodoro-section {
+  margin-top: 2rem;
+}
+
+#pomodoro-display {
   font-size: 3rem;
   margin: 1rem 0;
+  font-variant-numeric: tabular-nums;
 }
 
 .hidden {
@@ -49,4 +80,16 @@ textarea {
 .completed {
   text-decoration: line-through;
   color: gray;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }

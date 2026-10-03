@@ -8,23 +8,30 @@
 </head>
 <body>
   <div class="container" id="welcome-screen">
-    <h1>KittyDoro: My Pomodoro Timer</h1> <br/>
-    <img src="kittenwelcome.gif" alt="Kitten Welcome" class="kitten" /> <br/>
-    <button onclick="startApp()">Continue</button> <br/>
+    <h1>KittyDoro: My Pomodoro Timer</h1>
+    <img src="kittenwelcome.gif" alt="Kitten Welcome" class="kitten" />
+    <button type="button" onclick="startApp()">Continue</button>
   </div>
 
-  <div class="container hidden" id="main-app">
-    <h2>To-Do List</h2>
-<input type="text" id="todo-input" placeholder="Add a task" />
-<button onclick="addTask()">Add</button>
-<ol id="todo-list"></ol>
-    <div class="timer-section">
-      <h2>Pomodoro Timer</h2>
-      <div id="timer">0:05</div>
-      <button onclick="startTimer()">Start</button>
+  <main class="container hidden" id="main-app">
+    <section aria-labelledby="tasks-heading">
+      <h2 id="tasks-heading">To-Do List</h2>
+      <form id="todo-form">
+        <label class="sr-only" for="todo-input">Add a task</label>
+        <input type="text" id="todo-input" placeholder="Add a task" />
+        <button type="submit">Add</button>
+      </form>
+      <ol id="todo-list"></ol>
+    </section>
+    <section class="pomodoro-section" aria-labelledby="pomodoro-heading">
+      <h2 id="pomodoro-heading">Pomodoro Timer</h2>
+      <div id="pomodoro-display" aria-label="Time remaining" aria-live="off">25:00</div>
+      <button id="start-button" type="button" onclick="startTimer()">Start</button>
+      <button id="pause-button" type="button" onclick="pauseTimer()" disabled>Pause</button>
+      <button type="button" onclick="resetTimer()">Reset</button>
       <img id="kitten-img" src="kittensleeping.gif" class="kitten" alt="Kitten Sleeping" />
-    </div>
-  </div>
+    </section>
+  </main>
 
   <script src="script.js"></script>
 </body>

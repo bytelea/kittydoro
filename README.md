@@ -2,11 +2,11 @@
 ![ui_image](https://github.com/bytelea/kittydoro/blob/main/Screenshot%202025-06-04%20at%2017.32.24.png)
 <br/>
 
-**Kittydoro** is an adorable desktop Pomodoro timer app designed with a soft pastel aesthetic and a cozy kitten companion to help you stay productive. Built using simple web technologies, it blends minimalism with charm to keep you focused during your work or study sessions.
+**Kittydoro** is an adorable desktop Pomodoro countdown app designed with a soft pastel aesthetic and a cozy kitten companion to help you stay productive. Built using simple web technologies, it blends minimalism with charm to keep you focused during your work or study sessions.
 
 ## Key Features
 
-- ⏲️ Pomodoro-based timer (25/5 minute intervals coming soon)
+- ⏲️ 25-minute Pomodoro countdown with start, pause, and reset controls
 - 🐱 Animated kitten theme
 - ✅ Task checklist with interactive dashes
 - 🎨 Soft pastel UI in pinks, whites, greys, and greens
@@ -34,7 +34,7 @@
 
 2. Use the Checklist to track tasks.
 
-3. Breaks will start automatically after each 25-minute session.
+3. Take a short break when the 25-minute countdown is complete; breaks do not start automatically.
 
 4. Enjoy the soft visuals and motivating kitten!
 ![ui_image2](https://github.com/bytelea/kittydoro/blob/main/Screenshot%202025-06-04%20at%2017.33.03.png)
